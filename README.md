@@ -10,3 +10,6 @@ Restaurant types: you have a selection of 12 cuisines available and they are as 
 Commands:
  1) Combined average - this functionality will provide you with the overall average ratings of restaurants that fall into each of the three categories from both Google and Yelp. Example input: combined average, Ann Arbor, MI: Indian, Mexican, Thai. all input parameters are required.
 2) Specific average allows you to get the same data as combined average but only from one type of rating company Google or Yelp. Example query: specific average, Ann Arbor, MI, Yelp: Indian, Mexican, Thai. All input parameters are required.
+3) Top data allows you to get the top 'x' number of  restaurants in a specific category along with the ratings of those companies from a specific rating company Google or Yelp. Example query: top data, Indian, Ann Arbor, MI, Google, 5. All input parameters are required.
+4) proportion data allows you to see the proportion of the specified cuisines in a given city/state. Example query: proportion data, Ann Arbor, MI, Yelp: Indian, Mexican, Thai.
+Please enter "help" at any time to get this info again.
